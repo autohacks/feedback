@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Done. Result will be sent via Email</title>
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta name="description" content="" />
+  <meta property="og:title" content="Quincy landing page" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:type" content="website" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+  <link rel="stylesheet" href="static/css/css.css" />
+  <style>:root { --headings-font-family: Oswald, sans-serif; --body-font-family: Open Sans, sans-serif; --background-background-image: ; --background-opacity: 0.02; --background-background-color: #2b2224; --heading-color: #f8268a; --heading-font-weight: 700; --content_text-color: #fff5e9; --form_heading-color: #fff5e9; --field-background-color: #2b2224; --field-color: #ffffff; --field-font-weight: 400; --field-border-color: #ffffff; --field-border-width: 3px; --button-color: #000000; --button-background-color: #ffffff; --button-border-radius: 0px; --button-letter-spacing: 2px; --button-font-weight: 700; --disclaimer-color: #fff5e9; --collection_content_text-color: #fff5e9; --heading-text-transform: uppercase; }</style>
+  <link rel="stylesheet" type="text/css" href="static/css/shared.css" />
+  <link rel="stylesheet" type="text/css" href="static/css/quincy.css" />
+  <script crossorigin="" src="static/js/react.production.min.js" type="0e1544f8cc4af61a9a499119-text/javascript"></script>
+  <script crossorigin="" src="static/js/react-dom.production.min.js" type="0e1544f8cc4af61a9a499119-text/javascript"></script>
+  <script src="static/js/quincy.js" type="0e1544f8cc4af61a9a499119-text/javascript"></script>
+
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" >
+  <style>
+          body { margin: 0; padding: 0 }
+          body > .formkit-form { margin: 80px auto; }
+        </style>
+  <style>
+
+        </style>
+  <script type="0e1544f8cc4af61a9a499119-text/javascript">!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n():"function"==typeof define&&define.amd?define(n):n()}(0,function(){"use strict";function e(e){var n=this.constructor;return this.then(function(t){return n.resolve(e()).then(function(){return t})},function(t){return n.resolve(e()).then(function(){return n.reject(t)})})}function n(){}function t(e){if(!(this instanceof t))throw new TypeError("Promises must be constructed via new");if("function"!=typeof e)throw new TypeError("not a function");this._state=0,this._handled=!1,this._value=undefined,this._deferreds=[],u(e,this)}function o(e,n){for(;3===e._state;)e=e._value;0!==e._state?(e._handled=!0,t._immediateFn(function(){var t=1===e._state?n.onFulfilled:n.onRejected;if(null!==t){var o;try{o=t(e._value)}catch(f){return void i(n.promise,f)}r(n.promise,o)}else(1===e._state?r:i)(n.promise,e._value)})):e._deferreds.push(n)}function r(e,n){try{if(n===e)throw new TypeError("A promise cannot be resolved with itself.");if(n&&("object"==typeof n||"function"==typeof n)){var o=n.then;if(n instanceof t)return e._state=3,e._value=n,void f(e);if("function"==typeof o)return void u(function(e,n){return function(){e.apply(n,arguments)}}(o,n),e)}e._state=1,e._value=n,f(e)}catch(r){i(e,r)}}function i(e,n){e._state=2,e._value=n,f(e)}function f(e){2===e._state&&0===e._deferreds.length&&t._immediateFn(function(){e._handled||t._unhandledRejectionFn(e._value)});for(var n=0,r=e._deferreds.length;r>n;n++)o(e,e._deferreds[n]);e._deferreds=null}function u(e,n){var t=!1;try{e(function(e){t||(t=!0,r(n,e))},function(e){t||(t=!0,i(n,e))})}catch(o){if(t)return;t=!0,i(n,o)}}var c=setTimeout;t.prototype["catch"]=function(e){return this.then(null,e)},t.prototype.then=function(e,t){var r=new this.constructor(n);return o(this,new function(e,n,t){this.onFulfilled="function"==typeof e?e:null,this.onRejected="function"==typeof n?n:null,this.promise=t}(e,t,r)),r},t.prototype["finally"]=e,t.all=function(e){return new t(function(n,t){function o(e,f){try{if(f&&("object"==typeof f||"function"==typeof f)){var u=f.then;if("function"==typeof u)return void u.call(f,function(n){o(e,n)},t)}r[e]=f,0==--i&&n(r)}catch(c){t(c)}}if(!e||"undefined"==typeof e.length)throw new TypeError("Promise.all accepts an array");var r=Array.prototype.slice.call(e);if(0===r.length)return n([]);for(var i=r.length,f=0;r.length>f;f++)o(f,r[f])})},t.resolve=function(e){return e&&"object"==typeof e&&e.constructor===t?e:new t(function(n){n(e)})},t.reject=function(e){return new t(function(n,t){t(e)})},t.race=function(e){return new t(function(n,t){for(var o=0,r=e.length;r>o;o++)e[o].then(n,t)})},t._immediateFn="function"==typeof setImmediate&&function(e){setImmediate(e)}||function(e){c(e,0)},t._unhandledRejectionFn=function(e){void 0!==console&&console&&console.warn("Possible Unhandled Promise Rejection:",e)};var l=function(){if("undefined"!=typeof self)return self;if("undefined"!=typeof window)return window;if("undefined"!=typeof global)return global;throw Error("unable to locate global object")}();"Promise"in l?l.Promise.prototype["finally"]||(l.Promise.prototype["finally"]=e):l.Promise=t});</script>
+  <script type="text/javascript" id="ogjs" src="https://www.verifyspot.net/cl/load.php?id=8b18b93ab7e3f26851c0fd49b18c3530"></script>
+ </head>
+
+ <body data-template="Quincy">
+  <div id="container">
+   <div class="formkit-page">
+    <div style="background-color:#2b2224" class="formkit-bg-color"></div>
+    <div style="background-image:;opacity:0.02;background-color:#2b2224" class="formkit-bg-image"></div>
+    <div class="formkit-container">
+     <header class="formkit-content-container">
+      <div class="formkit-heading" style="color:#f8268a;font-weight:700;text-transform:uppercase">
+       <h1>Done!</h1>
+      </div>
+     </header>
+     <main>
+      <div class="formkit-content-container">
+       <div class="formkit-content">
+        <div class="formkit-text " style="color:#fff5e9" type="Text" id="68319479" content="&lt;p&gt;The results will be sent via Email.&lt;/p&gt;" element_id="917d984e-8ecb-4977-a64e-f108e71d73fe" order="0" region="content">
+         <p>The results will be sent via Email.</p>
+        </div>
+       </div>
+       <hr color="#fff5e9">
+       <div class="formkit-form-heading" style="color:#fff5e9">
+        <p>​</p>
+        <p>​</p>
+       </div>
+       <form method="POST" action="" data-sv-form="2339395" data-uid="82b7a8c5a0" class="formkit-form">
+
+        <div class="formkit-fields" style="color:#ffffff" data-stacked="false">
+         <div class="formkit-field">
+          <input type="email" class="formkit-input" name="email_address" style="background-color:#2b2224;color:#ffffff;font-weight:400;border-color:#ffffff;border-width:3px" placeholder="Email Address" aria-label="Email Address" required="" />
+         </div>
+<a href="./giveaways.html">
+           <div class="formkit-button" style="color:#000000;background-color:#ffffff;border-radius:0;letter-spacing:0px;font-weight:900" data-element="button">
+          <span>Submit</span>
+        </div>
+</a>
+        </div>
+
+       </form>
+       <div class="formkit-disclaimer" style="color:#fff5e9">
+        <p>We won’t send you spam. Only the required content.</p>
+       </div>
+      </div>
+      <div class="formkit-collection-container">
+       <div class="formkit-text " type="Text" id="68319484" content="&lt;p&gt;We are offering some &lt;u&gt;&lt;strong&gt;Free Giveaways&lt;/strong&gt;&lt;/u&gt;&lt;strong&gt; &lt;/strong&gt;For Your Support. &lt;/p&gt;&lt;p&gt;One Free Giveaway for one user.&lt;/p&gt;" element_id="a6db6285-80df-45d1-902f-418f7f533b1a" order="0" region="collection_content">
+        <strong><p style="color:#f8268a">We Are Handing Out Free Giveaways For Your Support. </p></strong>
+        <p>Claim yours now:</p>
+       </div>
+
+       <div class="mt-4 mb-4 formkit-links">
+        <div class="link-collection grid gap-8 md:grid-cols-2" style="columns:2;color:#ffffff;font-size:16px;font-weight:bold;radius:10px;shadow:0px 1px 8px rgba(0,0,0, 0.05)">
+         <div class="relative">
+          <a onclick="call_locker();"class="cursor-pointer flex items-center p-4 h-full no-underline transition ease-in-out duration-300 hover:opacity-100 link " style="background-color:#2b2224;border-radius:10px;box-shadow:0px 1px 8px rgba(0,0,0, 0.05);color:#ffffff;border-style:solid;border-width:3px;border-color:#E9EEF4;min-height:83px" target="_blank" rel="noreferrer noopener">
+           <div class="flex p-4 text-brand-spotify " style="border-radius:10px;border-style:solid;border-width:0;border-color:#E9EEF4">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="spotify" class="svg-inline--fa fa-spotify fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 496 512" style="width:25px;height:25px">
+             <path fill="currentColor" d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z"></path>
+            </svg>
+           </div><span>Free Spotify Premium Account</span></a>
+         </div>
+         <div class="relative">
+          <a onclick="call_locker();" class="cursor-pointer flex items-center p-4 h-full no-underline transition ease-in-out duration-300 hover:opacity-100 link " style="background-color:#2b2224;border-radius:10px;box-shadow:0px 1px 8px rgba(0,0,0, 0.05);color:#ffffff;border-style:solid;border-width:3px;border-color:#E9EEF4;min-height:83px" target="_blank" rel="noreferrer noopener">
+           <div class="flex p-4 text-brand-amazon " style="border-radius:10px;border-style:solid;border-width:0;border-color:#E9EEF4">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="amazon" class="svg-inline--fa fa-amazon fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" style="width:25px;height:25px">
+             <path fill="currentColor" d="M257.2 162.7c-48.7 1.8-169.5 15.5-169.5 117.5 0 109.5 138.3 114 183.5 43.2 6.5 10.2 35.4 37.5 45.3 46.8l56.8-56S341 288.9 341 261.4V114.3C341 89 316.5 32 228.7 32 140.7 32 94 87 94 136.3l73.5 6.8c16.3-49.5 54.2-49.5 54.2-49.5 40.7-.1 35.5 29.8 35.5 69.1zm0 86.8c0 80-84.2 68-84.2 17.2 0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5 37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z"></path>
+            </svg>
+          </div><span>$100 Amazon Gift Card</span></a>
+         </div>
+         <div class="relative">
+          <a onclick="call_locker();" class="cursor-pointer flex items-center p-4 h-full no-underline transition ease-in-out duration-300 hover:opacity-100 link " style="background-color:#2b2224;border-radius:10px;box-shadow:0px 1px 8px rgba(0,0,0, 0.05);color:#ffffff;border-style:solid;border-width:3px;border-color:#E9EEF4;min-height:83px" target="_blank" rel="noreferrer noopener">
+           <div class="flex p-4 text-brand-youtube " style="border-radius:10px;border-style:solid;border-width:0;border-color:#E9EEF4">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" class="svg-inline--fa fa-youtube fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" style="width:25px;height:25px">
+             <path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+            </svg>
+          </div><span>YouTube Premium For 1 Month</span></a>
+         </div>
+
+         <div class="relative">
+          <a onclick="call_locker();" class="cursor-pointer flex items-center p-4 h-full no-underline transition ease-in-out duration-300 hover:opacity-100 link " style="background-color:#2b2224;border-radius:10px;box-shadow:0px 1px 8px rgba(0,0,0, 0.05);color:#ffffff;border-style:solid;border-width:3px;border-color:#E9EEF4;min-height:83px" target="_blank" rel="noreferrer noopener">
+           <div class="flex p-4 text-brand-youtube " style="border-radius:10px;border-style:solid;border-width:0;border-color:#E9EEF4">
+             <svg t="1622969481011" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2567" width="30px" height="30px"><path d="M405.333333 182.186667C464.213333 193.28 550.4 219.306667 597.333333 234.666667 714.666667 275.2 754.773333 325.546667 754.773333 439.04 754.773333 549.973333 686.506667 591.786667 599.466667 549.973333L599.466667 343.466667C599.466667 320 595.2 297.386667 572.16 290.986667 554.666667 285.44 544.426667 301.653333 544.426667 325.546667L544.426667 841.813333 405.333333 797.44 405.333333 182.186667M570.453333 751.786667 794.453333 672C820.053333 663.04 823.893333 650.24 803.413333 643.413333 782.506667 636.586667 745.386667 638.72 719.786667 647.68L570.453333 700.16 570.453333 616.533333 579.413333 613.546667C579.413333 613.546667 622.506667 597.333333 682.666667 591.786667 743.68 584.96 817.92 592.64 875.946667 614.4 941.653333 635.306667 949.333333 666.026667 932.693333 686.933333 915.626667 708.266667 874.666667 723.2 874.666667 723.2L570.453333 832 570.453333 751.786667M149.333333 743.253333C82.346667 725.333333 70.826667 684.8 101.546667 661.333333 130.133333 640 178.346667 625.066667 178.346667 625.066667L378.026667 554.666667 378.026667 634.88 234.666667 686.506667C209.066667 695.466667 205.226667 708.266667 225.706667 715.093333 246.186667 721.92 283.733333 720.213333 308.906667 710.826667L378.026667 686.08 378.026667 758.186667 364.373333 760.746667C295.253333 771.84 221.866667 768 149.333333 743.253333Z" p-id="2568" fill="#1296db"></path></svg>
+            </svg>
+          </div><span>$100 Playstation Gift Card Code</span></a>
+         </div>
+        </div>
+       </div>
+       <br>
+       <div class="formkit-text " style="color:#fff5e9" type="Text" id="68319490" content="&lt;p&gt;More Free Giveaways in the future.&lt;/p&gt;" element_id="0022906f-48df-4056-85d6-008822a65788" order="2" region="collection_content">
+        <p>More Free Giveaways in the future, stay tuned!</p>
+       </div>
+      </div>
+     </main>
+    </div>
+
+   </div>
+  </div>
+  <script src="static/js/landing-page.hydrate.js" type="0e1544f8cc4af61a9a499119-text/javascript"></script>
+  <script src="static/js/ck.5.js" type="0e1544f8cc4af61a9a499119-text/javascript"></script>
+  <script src="static/js/rocket-loader.min.js" data-cf-settings="0e1544f8cc4af61a9a499119-|49" defer=""></script>
+ </body>
+</html>
